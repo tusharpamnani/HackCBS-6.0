@@ -1,0 +1,53 @@
+.header{
+    padding: 35px 50px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.iconBox{
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.profileSection{
+    height: 100%;
+    display: flex;
+    width: clamp(80px,20%,100px);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBar{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 80vw;
+    padding: 0% 40px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.profileSection .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+.iconBox *{
+    height: 100%;
+    width: 100%;
+}

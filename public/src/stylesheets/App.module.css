@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-size: 14px;
+}
+
+.App{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    padding: 0% 40px;
+    align-items: center;
+}
+
+.tabSection{
+    display: flex;
+    padding: 30px;
+    height: 100vh;
+    width: clamp(350px,15%,600px);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.tabSection h1{
+    color: #0048AD;
+    margin-bottom: 32px;
+    Padding:8px, 24px, 8px, 24px;
+}
+
+
+.rightSection{
+    overflow-x: scroll;
+    height: 100vh;
+    width: 80%;
+    padding: 0 30px;
+}
+
+.rightSection::-webkit-scrollbar{
+    display: none;
+}
+
+.promotion{
+    height: 180px;
+    padding: 20px;
+    background-color: #E0EDFF;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.promotion button{
+    height: 50px;
+    width: 100%;
+    background-color: #0048AD;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.promotion h3{
+    font-size: 14px;
+}
+
+.promotion p{
+    font-size: 12px;
+}
+
+
+.options{
+    z-index: 2;
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    border: none;
+}
+
+
+
+
+.icon{
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    aspect-ratio: 1/1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.icon img{
+    height: 90%;
+    width: 90%;
+}
+
+.container{
+    position: relative;
+    background-color: white;
+}
+
+.options:disabled{
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+
+.options:disabled{
+    background-color: #E0EDFF;
+    border-radius: 5px;
+    color: black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.section h1{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px, 24px, 8px, 24px;
+}
+
+.tempHolder{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}

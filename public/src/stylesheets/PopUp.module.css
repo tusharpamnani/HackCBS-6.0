@@ -1,0 +1,93 @@
+.screen{
+    backdrop-filter: brightness(0.3);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.popUp{
+    height: 800px;
+    width: 800px;
+    padding: 40px 50px 40px 50px;
+    background-color: white;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popUp *{
+    width: 100%;
+}
+
+.popUp input , .popUp select,.popUp input:focus{
+    outline: none;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.checkBoxField{
+    display: flex;
+    align-items: center;
+}
+
+.checkBoxField input{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+.popUp button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    background-color: #D0D5DD;
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.head button{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-weight: 400;
+    background-color: transparent;  
+}
+
+
+.popUp div label{
+    top: -4px;
+    padding: 10px;
+    margin: 0px 0px;
+    position: relative;
+}
