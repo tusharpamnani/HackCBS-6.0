@@ -15,6 +15,7 @@ mongoose
 
 app.use(express.json());
 app.use("/api", routes);
+app.use('/get-balance', require('./getBalance') // Integration with Circle.com (API for custom wallets)
 
 
 app.listen(process.env.PORT, () => {
