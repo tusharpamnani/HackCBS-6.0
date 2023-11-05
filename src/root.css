@@ -1,3 +1,8 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
 :root {
     --dark-blue:#002a5b;
     --primary: #100d0d;

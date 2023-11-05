@@ -2,9 +2,9 @@ import styles from  "./stylesheets/App.module.css"
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes ,Route} from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Payment from "./components/Payment";
-import RotatingParacetamol from "./components/RotatingParacetamol";
 import AppointmentList from "./pages/AppointmentList";
+import AppointmentForm from "./components/AppointmentForm";
+
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <Navbar/>
       <BrowserRouter>
         <Routes>
-          <Route path="/temp" element = {<Homepage height = {"200px"} width = {"200px"}/>} />
-          <Route path="/" element = {<AppointmentList/>}/>
+          <Route path="/s" element = {<Homepage height = {"200px"} width = {"200px"}/>} />
+          <Route path="/" element = {<AppointmentForm/>}/>
         </Routes>
       </BrowserRouter>
     </div>

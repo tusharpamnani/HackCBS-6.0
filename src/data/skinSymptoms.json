@@ -1,0 +1,317 @@
+[
+  {
+    "symptom": "Rash",
+    "conditions": [
+      {
+        "condition": "Impetigo",
+        "description": "A bacterial skin infection that results in red sores that can rupture and develop a honey-colored crust."
+      },
+      {
+        "condition": "Ringworm (Tinea corporis)",
+        "description": "A fungal infection that leads to a red, circular rash with a raised, scaly border."
+      },
+      {
+        "condition": "Scabies",
+        "description": "A parasitic infection that causes intense itching and a pimple-like rash."
+      },
+      {
+        "condition": "Psoriasis",
+        "description": "A chronic autoimmune condition characterized by red, scaly skin patches."
+      }
+    ]
+  },
+  {
+    "symptom": "Itching (Pruritus)",
+    "conditions": [
+      {
+        "condition": "Fungal Infections",
+        "description": "Fungal infections like athlete's foot and jock itch can cause itching in affected areas."
+      },
+      {
+        "condition": "Contact Dermatitis",
+        "description": "Allergic reactions or skin contact with irritants can lead to itching and redness."
+      },
+      {
+        "condition": "Eczema (Atopic Dermatitis)",
+        "description": "Eczema often presents with intense itching and inflamed skin."
+      },
+      {
+        "condition": "Scabies",
+        "description": "Scabies mites burrow under the skin, causing severe itching."
+      }
+    ]
+  },
+  {
+    "symptom": "Pain or Discomfort",
+    "conditions": [
+      {
+        "condition": "Cellulitis",
+        "description": "A bacterial skin infection that can cause redness, pain, and warmth in affected areas."
+      },
+      {
+        "condition": "Abscess",
+        "description": "A painful, swollen, and pus-filled lump that forms when an infection causes a pocket of pus to develop."
+      },
+      {
+        "condition": "Herpes",
+        "description": "Herpes can cause painful sores on or around the genitals or mouth."
+      },
+      {
+        "condition": "Shingles (Herpes Zoster)",
+        "description": "A viral infection that can lead to a painful rash with blisters."
+      }
+    ]
+  },
+  {
+    "symptom": "Swelling",
+    "conditions": [
+      {
+        "condition": "Cellulitis",
+        "description": "Swelling and redness are common symptoms of cellulitis, a bacterial skin infection."
+      },
+      {
+        "condition": "Abscess",
+        "description": "Abscesses often result in localized swelling due to the accumulation of pus."
+      },
+      {
+        "condition": "Lymphangitis",
+        "description": "Inflammation of lymphatic vessels can lead to swelling, red streaks, and pain."
+      },
+      {
+        "condition": "Erysipelas",
+        "description": "A bacterial infection that can cause skin redness, swelling, and fever."
+      }
+    ]
+  },
+  {
+    "symptom": "Blistering",
+    "conditions": [
+      {
+        "condition": "Herpes",
+        "description": "Herpes can lead to painful blisters on or around the genitals or mouth."
+      },
+      {
+        "condition": "Impetigo",
+        "description": "Impetigo sores can rupture, forming blisters with a honey-colored crust."
+      },
+      {
+        "condition": "Shingles (Herpes Zoster)",
+        "description": "Shingles can cause fluid-filled blisters on the skin."
+      },
+      {
+        "condition": "Bullous Pemphigoid",
+        "description": "An autoimmune skin disorder that results in large, fluid-filled blisters."
+      }
+    ]
+  },
+  {
+    "symptom": "Dryness",
+    "conditions": [
+      {
+        "condition": "Xeroderma (Dry Skin)",
+        "description": "Dry skin can be caused by environmental factors and may lead to flakiness and itching."
+      },
+      {
+        "condition": "Eczema (Atopic Dermatitis)",
+        "description": "Eczema often results in dry, inflamed, and itchy skin."
+      },
+      {
+        "condition": "Psoriasis",
+        "description": "Psoriasis can lead to dry, scaly skin patches."
+      },
+      {
+        "condition": "Ichthyosis",
+        "description": "A genetic condition that causes dry, scaly skin."
+      }
+    ]
+  },
+  {
+    "symptom": "Scaling",
+    "conditions": [
+      {
+        "condition": "Psoriasis",
+        "description": "Psoriasis is known for scaly skin patches with silvery scales."
+      },
+      {
+        "condition": "Seborrheic Dermatitis",
+        "description": "An inflammatory skin condition that results in red, scaly, and flaky skin."
+      },
+      {
+        "condition": "Ichthyosis",
+        "description": "Ichthyosis can lead to widespread scaling and flaking of the skin."
+      },
+      {
+        "condition": "Xeroderma (Dry Skin)",
+        "description": "Dry skin can become scaly and flaky in some cases."
+      }
+    ]
+  },
+  {
+    "symptom": "Ulcers or Sores",
+    "conditions": [
+      {
+        "condition": "Leg Ulcers",
+        "description": "Open sores that typically form on the lower legs and may result from vascular issues."
+      },
+      {
+        "condition": "Pyoderma Gangrenosum",
+        "description": "A rare skin condition causing painful, rapidly developing ulcers."
+      },
+      {
+        "condition": "Cutaneous Leishmaniasis",
+        "description": "A parasitic infection that can lead to skin ulcers."
+      },
+      {
+        "condition": "Syphilis",
+        "description": "Syphilis can cause painless sores or ulcers in the early stages."
+      }
+    ]
+  },
+  {
+    "symptom": "Pustules",
+    "conditions": [
+      {
+        "condition": "Acne",
+        "description": "Acne often presents with pustules, papules, and comedones on the skin."
+      },
+      {
+        "condition": "Folliculitis",
+        "description": "Folliculitis is an infection of the hair follicles, leading to pustules and redness."
+      },
+      {
+        "condition": "Impetigo",
+        "description": "Impetigo can result in pustules with a honey-colored crust."
+      },
+      {
+        "condition": "Pyoderma Gangrenosum",
+        "description": "Pyoderma gangrenosum can lead to painful, ulcerating pustules."
+      }
+    ]
+  },
+  {
+    "symptom": "Crusting",
+    "conditions": [
+      {
+        "condition": "Impetigo",
+        "description": "Impetigo sores often crust over with a characteristic honey-colored crust."
+      },
+      {
+        "condition": "Scabies",
+        "description": "Scabies can cause crusty, raised burrows on the skin."
+      },
+      {
+        "condition": "Psoriasis",
+        "description": "Psoriasis plaques may crust over and flake."
+      },
+      {
+        "condition": "Herpes",
+        "description": "Herpes sores can crust over as they heal."
+      }
+    ]
+  },
+  {
+    "symptom": "Redness (Erythema)",
+    "conditions": [
+      {
+        "condition": "Cellulitis",
+        "description": "Cellulitis can cause redness and warmth in the affected area."
+      },
+      {
+        "condition": "Erysipelas",
+        "description": "Erysipelas is characterized by a fiery red rash and raised borders."
+      },
+      {
+        "condition": "Rosacea",
+        "description": "Rosacea often leads to facial redness and visible blood vessels."
+      },
+      {
+        "condition": "Eczema (Atopic Dermatitis)",
+        "description": "Eczema can result in red, inflamed patches of skin."
+      }
+    ]
+  },
+  {
+    "symptom": "Warmth",
+    "conditions": [
+      {
+        "condition": "Cellulitis",
+        "description": "Cellulitis often presents with warmth in the affected skin."
+      },
+      {
+        "condition": "Erysipelas",
+        "description": "Erysipelas can cause warmth and redness with a well-defined border."
+      },
+      {
+        "condition": "Skin Abscess",
+        "description": "Abscesses may lead to localized warmth, pain, and swelling."
+      },
+      {
+        "condition": "Pyoderma Gangrenosum",
+        "description": "Pyoderma gangrenosum is a painful skin condition with warm, ulcerating areas."
+      }
+    ]
+  },
+  {
+    "symptom": "Nodules or Lumps",
+    "conditions": [
+      {
+        "condition": "Lipoma",
+        "description": "Lipomas are benign lumps made of fatty tissue that can form under the skin."
+      },
+      {
+        "condition": "Furuncle (Boil)",
+        "description": "Boils are painful lumps filled with pus that develop in hair follicles."
+      },
+      {
+        "condition": "Hidradenitis Suppurativa",
+        "description": "A skin condition that leads to painful lumps and abscesses in the armpits and groin."
+      },
+      {
+        "condition": "Erythema Nodosum",
+        "description": "Erythema nodosum causes painful, red nodules under the skin, often on the shins."
+      }
+    ]
+  },
+  {
+    "symptom": "Change in Skin Color",
+    "conditions": [
+      {
+        "condition": "Tinea Versicolor",
+        "description": "A fungal infection that can lead to patches of lighter or darker skin."
+      },
+      {
+        "condition": "Vitiligo",
+        "description": "An autoimmune condition that results in the loss of skin color."
+      },
+      {
+        "condition": "Post-Inflammatory Hyperpigmentation",
+        "description": "Darkening of the skin can occur as a result of healing after inflammation or injury."
+      },
+      {
+        "condition": "Albinism",
+        "description": "A genetic condition causing a complete lack of skin pigmentation."
+      }
+    ]
+  },
+  {
+    "symptom": "Hair Loss",
+    "conditions": [
+      {
+        "condition": "Alopecia Areata",
+        "description": "A condition that leads to hair loss in round, smooth patches on the scalp or elsewhere on the body."
+      },
+      {
+        "condition": "Tinea Capitis",
+        "description": "A fungal infection of the scalp that can result in hair loss in affected areas."
+      },
+      {
+        "condition": "Androgenetic Alopecia (Male or Female Pattern Baldness)",
+        "description": "Gradual, age-related hair loss, often due to genetic factors."
+      },
+      {
+        "condition": "Telogen Effluvium",
+        "description": "Hair loss caused by a significant event, stress, or changes in the hair growth cycle."
+      }
+    ]
+  }
+]

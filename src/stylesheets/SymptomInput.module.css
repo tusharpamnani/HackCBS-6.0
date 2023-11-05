@@ -1,0 +1,50 @@
+.inputField{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    height: 150px;
+    width: 600px;
+    position: relative;
+    border: 2px solid gray;
+    justify-content: center;
+}
+
+.inputField span{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 3px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.inputField select{
+    position: absolute;
+    left: calc(90%);
+    aspect-ratio: 1;
+    width: 3%;
+}
+
+.inputField select option{
+    background-color: var(--dark-blue);
+    color: azure;
+}
+
+.inputField select:active{
+    width: 200px;
+    height: 40px;
+}
+
+.optionBox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
