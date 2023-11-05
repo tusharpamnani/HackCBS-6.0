@@ -1,5 +1,12 @@
-.screen{
-    position: relative;
-    top: calc(8vw + 60px);
-    padding: 0px 60px;
-}
+
+.screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+  }
+  
+
+  

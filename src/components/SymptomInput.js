@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import style from "../stylesheets/SymptomInput.module.css"
 import skinData from "../data/skinSymptoms.json"
-console.log(skinData[1].symptom)
 
-function SymptomInput() {
+function SymptomInput(props) {
 
-    const [symptoms, setSymptoms] = useState(["vomit","cough"])
+    const category = props.category;
+
+    const [symptoms, setSymptoms] = useState([])
     const handleSelect = (e) => {
         const symptom = e.target.value
         if (!symptoms.includes(symptom)) {
@@ -23,7 +24,7 @@ function SymptomInput() {
             <div className={style.inputField}>
                 <select name="" id="" onChange={handleSelect}>
                     {
-                        skinData.map(symptom=>{
+                        skinData[`${category}`].map(symptom=>{
                             return <option key={symptom.symptom} value={symptom.symptom}>{symptom.symptom}</option>
                         })
                     }
