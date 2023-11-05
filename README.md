@@ -75,13 +75,13 @@ To get started with MediBuddy, follow these steps:
 2. Install the necessary dependencies for both the server and client applications:
 
    ```shell
-   cd medibuddy
+   cd public
    npm install
    cd client
    npm install
    ```
 
-3. Set up your MongoDB database and configure the connection in the `config.js` file.
+3. Set up your MongoDB database and configure the connection in the `app.js` file.
 
 4. Start the server and client applications:
 
