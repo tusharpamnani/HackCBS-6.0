@@ -1,0 +1,24 @@
+.container{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.reviews{
+    background-color: white;
+    height: 200px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 90%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
