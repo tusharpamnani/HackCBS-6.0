@@ -15,7 +15,7 @@ const patientSchema = new mongoose.Schema({
     gender: String,
     age: Number,
     contact: String,
-    medicalHistory: [prescriptionSchema], // Modify to store prescriptions in an array
+    medicalHistory: [prescriptionSchema], 
     bloodGroup: String,
     isDisabled: Boolean,
 });
